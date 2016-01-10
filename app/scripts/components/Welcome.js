@@ -2,7 +2,7 @@
 
 let React = require('react');
 
-let PageZero = React.createClass({
+let Welcome = React.createClass({
 
   render: function() {
 
@@ -17,4 +17,4 @@ let PageZero = React.createClass({
 
 });
 
-module.exports = PageZero;
+module.exports = Welcome;

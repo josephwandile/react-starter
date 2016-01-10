@@ -10,10 +10,13 @@ $icon-font-path: "../fonts/";
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
-#intro-content {
+.intro-content {
   width: 80%;
   font-family: "Avenir";
-  color: #f6f6f6;
+  color: #2F4F4F;
+  display: flex;
+  justify-content: center;
 }

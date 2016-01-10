@@ -15,6 +15,10 @@ let Page = React.createClass({
     let { query } = this.props.location;
     let pageNum = query.pageNum;
 
+    if (!pageNum) {
+      pageNum = 'NP';
+    }
+
     this.setState({
       pageNum
     });
@@ -24,7 +28,7 @@ let Page = React.createClass({
   render: function() {
 
     return (
-      <div>
+      <div className="intro-content">
         <p>
           This is page {this.state.pageNum}.
         </p>
