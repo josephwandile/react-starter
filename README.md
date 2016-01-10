@@ -4,6 +4,7 @@
 
 ## Development
 * `npm install & bower install` to install dependencies. `gulp watch` to run development server. `gulp` to run tests and build.
+* Pop `http://localhost:3000/#/page/?pageNum=2` into your omnibar to check that the Router is working (needn't be `pageNum=2`). If not, make sure React-Router's peer-dependencies are up to date.
 
 ## Rules
 

@@ -5,3 +5,15 @@ $icon-font-path: "../fonts/";
 @import "modules/all";
 @import "components/all";
 @import "sections/all";
+
+#view-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro-content {
+  width: 80%;
+  font-family: "Avenir";
+  color: #f6f6f6;
+}

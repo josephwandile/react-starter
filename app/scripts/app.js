@@ -8,16 +8,14 @@ let ReactDOM = require("react-dom");
 import { Router, Route, Link, IndexRedirect } from 'react-router';
 
 // Components
-let PageZero = require('./components/PageZero');
-let PageOne = require("./components/PageOne");
-let PageTwo = require("./components/PageTwo");
+let Welcome = require('./components/Welcome');
+let Page = require("./components/Page");
 
 let mountNode = document.getElementById('view-container');
 
 ReactDOM.render((
   <Router>
-    <Route path="/" component={PageZero}/>
-    <Route path="/pageone" component={PageOne}/>
-    <Route path="/pagetwo" component={PageTwo}/>
+    <Route path="/" component={Welcome}/>
+    <Route path="/page" component={Page}/>
   </Router>
 ), mountNode)
